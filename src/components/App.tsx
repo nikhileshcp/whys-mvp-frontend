@@ -4,7 +4,7 @@ import styles from './App.module.css';
 import logo from '../assets/logo.jpeg';
 
 export default function App() {
-  const [audioFile, setAudioFile] = useState<File | null>(null);
+  const [, setAudioFile] = useState<File | null>(null);
   const [transcript, setTranscript] = useState('');
   const [inference, setInference] = useState('');
   const [loading, setLoading] = useState(false);
